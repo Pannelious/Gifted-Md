@@ -49,7 +49,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
-global.video= "https://telegra.ph/file/204481823350f368c1826.mp4" ;
+global.image= "https://telegra.ph/file/6e1cd8aa7f8ecd8cd58b6.jpg" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="wabots@giftedtechnexus.co.ke"
@@ -63,16 +63,16 @@ global.blockJids= process.env.BLOCK_JID || ""
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
-global.github=process.env.GITHUB|| "https://github.com/mouricedevs/Gifted-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/54efddccf41281ad7ec51.jpg"
+global.github=process.env.GITHUB|| "https://github.com/Pannelious/Gifted-Md";
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/Dvsj2VsVyJf829LOsEzjtJ";
+global.website=process.env.GURL || "https://chat.whatsapp.com/Dvsj2VsVyJf829LOsEzjtJ" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/6e1cd8aa7f8ecd8cd58b6.jpg"
 
 
 
 global.devs = "254728782591,254762016957,254110853827,254728746852" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254728782591,254762016957,254110853827,254728746852";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254728782591,254762016957,254110853827,254728746852";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "263732872101,263788914423";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "263732872101,263788914423";
 
 
 
