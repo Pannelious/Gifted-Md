@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Gifted Tech",
+      "value": "MASTERPEACE",
       "required" :true
     },   
      
@@ -27,12 +27,12 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "ɢɪғᴛᴇᴅ-ᴍᴅ"
+      "value": "MASTERPEACE-ᴍᴅ"
     }, 
     "USER_IMAGES": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg"
+      "value": "https://telegra.ph/file/6e1cd8aa7f8ecd8cd58b6.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -91,7 +91,7 @@
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm, Take it false if you wanna run bot in your pm (if MODE is Public)",
-      "value": "false",
+      "value": "true",
       "required" :false
     },
     "PREFIX": {
@@ -100,7 +100,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "254728782591,254762016957,254110853827,254728746852"
+      "value": "263732872101,263788914422"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
